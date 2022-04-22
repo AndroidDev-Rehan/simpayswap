@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "730107668593",
+    "firebase_url": "https://simpayswap-98bb0-default-rtdb.firebaseio.com",
+    "project_id": "simpayswap-98bb0",
+    "storage_bucket": "simpayswap-98bb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730107668593:android:683d829d298cf3d63393d0",
+        "android_client_info": {
+          "package_name": "com.sdh.simpayswap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730107668593-pvqfuf6l4mgdd16tel32g71n1k6t33oe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFge_cXXPRRygYmswCg0ariEO1_vj3B0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730107668593-pvqfuf6l4mgdd16tel32g71n1k6t33oe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
