@@ -11,6 +11,8 @@ import '../PIN Widgets/Verify.dart';
 
 
 class EnterPinLogin extends StatefulWidget {
+  const EnterPinLogin({Key? key}) : super(key: key);
+
   @override
   State<EnterPinLogin> createState() => _EnterPinLoginState();
 
@@ -34,14 +36,14 @@ class _EnterPinLoginState extends State<EnterPinLogin> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: lightWhite,
-        title: Text("Enter Your PIN",style: TextStyle(color: Colors.black),),
+        title: const Text("Enter Your PIN",style: TextStyle(color: Colors.black),),
         centerTitle: true,
         elevation: 0,
         leading: IconButton(
           onPressed:(){
-            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Login()));
+            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>const Login()));
           } ,
-          icon: Icon(Icons.arrow_back_ios,color: Colors.black,),
+          icon: const Icon(Icons.arrow_back_ios,color: Colors.black,),
         ),
       ),
       body: Verify((val)async{

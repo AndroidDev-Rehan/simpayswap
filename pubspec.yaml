@@ -61,6 +61,10 @@ dependencies:
   permission_handler: ^8.1.1
   font_awesome_flutter: ^9.1.0
   flutter_emoji: ^2.2.1+1
+  http: ^0.13.4
+  web3dart: ^2.3.3
+  web_socket_channel: ^2.1.0
+
 
 
 dev_dependencies:

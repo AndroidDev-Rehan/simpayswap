@@ -1,10 +1,15 @@
 
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:simpayswap/Screens/Drawer/AppDrawer.dart';
+import 'package:simpayswap/Screens/eth_deposit/send_ether.dart';
 import 'package:simpayswap/pages/deposit_page.dart';
 import 'package:simpayswap/pages/portfolio_page.dart';
 import 'package:simpayswap/pages/transaction_page.dart';
 
 import 'package:flutter/material.dart';
+
+import '../Screens/eth_deposit/eth_deposit.dart';
 
 // ignore: must_be_immutable
 class RootScreen extends StatefulWidget {
@@ -42,7 +47,9 @@ class _RootScreenState extends State<RootScreen> {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            _onItemTapped(1);
+            Get.to(AppDrawer("Ether Deposit", SendEtherByWallet(), Colors.white));
+            // _onItemTapped(1);
+            // print("item tapped");
           },
           child: const Icon(Icons.add),
         ),

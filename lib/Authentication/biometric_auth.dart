@@ -11,6 +11,8 @@ import 'package:simpayswap/pages/deposit_page.dart';
 import 'package:simpayswap/views/root_screen.dart';
 
 class BiometricAuth extends StatefulWidget {
+  const BiometricAuth({Key? key}) : super(key: key);
+
   @override
   _BiometricAuthState createState() => _BiometricAuthState();
 }
